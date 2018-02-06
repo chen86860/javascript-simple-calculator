@@ -1,0 +1,21 @@
+{
+  "name": "javascript-simple-calculator",
+  "keywords": [
+    "calculator",
+    "notation"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Jack",
+    "email": "chen86860@126.com"
+  },
+  "scripts": {
+    "start": "parcel calc.html",
+    "build": "parcel build calc.html"
+  },
+  "dependenciesDev": {
+    "parcel": "^1.4.0"
+  }
+}
