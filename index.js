@@ -56,7 +56,7 @@ const calc = (publicity) => {
   return tmp[0]
 }
 
-// mid notation to last notation
+// mid polish notation to polish postfix
 // ['(', '12',+', '4', ')', '*', '5', '-', '6', '+', '8', '/', '2'] 
 // => ['12', '3', '4', '+' ,'*', '6' ,'-', '8', '2' ,'/' ,'+']
 const notation = (list) => {
